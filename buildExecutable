@@ -1,0 +1,5 @@
+cd /
+cd /Users/swamy/git/TestDevOps/
+docker stop helloworld
+docker rm helloworld
+docker build -t helloworld -p 80:80 -v /Users/swamy/git/TestDevOps/src/:/var/www/html hello-world 
